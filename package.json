@@ -1,0 +1,21 @@
+{
+  "name": "cloud-monitoring-suite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch": "^3.1009.0",
+    "@aws-sdk/client-ec2": "^3.1009.0",
+    "@aws-sdk/client-sns": "^3.1009.0",
+    "@aws-sdk/client-ssm": "^3.1009.0",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "docx": "^9.6.1"
+  }
+}
